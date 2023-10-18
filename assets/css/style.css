@@ -70,8 +70,6 @@ body {
     min-height: 100vh;
     min-height: 100dvh;
 
-    background: var(--pale-blue);
-
     font-family: var(--ff-primary);
     font-size: var(--fs-base);
 }
