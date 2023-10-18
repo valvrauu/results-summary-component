@@ -15,27 +15,70 @@
     <title>Frontend Mentor | Results summary component</title>
   </head>
   <body>
-    Your Result
-    76
-    of 100
+    <!-- Results summary component -->
 
-    Great
-    You scored higher than 65% of the people who have taken these tests.
-    
-    Summary
+    <div class="card">
+      <div class="card__result">
+        <h2 class="card__result-heading">Your Result</h2>
 
-    Reaction
-    80 / 100
+        <div class="card__result-score">
+          <span class="card__result-score-current">76</span>
+          <span class="card__result-score-total">of 100</span>
+        </div>
 
-    Memory
-    92 / 100
+        <div class="card__result-feedback">
+          <h2 class="card__result-feedback-heading">Great</h2>
+          <p class="card__result-feedback-text">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+      </div>
+      
+      <div class="card__summary">
+        <h2 class="card__summary-heading">Summary</h2>
+        
+        <ul class="card__summary-list">
+          <li class="card__summary-item card__summary-item--red">
+            <img class="card__summary-icon" src="assets/images/icon-reaction.svg" alt="">
+            <span class="card__summary-label">Reaction</span>
 
-    Verbal
-    61 / 100
+            <div class="card__summary-score">
+              <span class="card__summary-score-current">80</span>
+              <span class="card__summary-score-total">/ 100</span>
+            </div>
+          </li>
 
-    Visual
-    72 / 100
+          <li class="card__summary-item card__summary-item--yellow">
+              <img class="card__summary-icon" src="assets/images/icon-memory.svg" alt="">
+              <span class="card__summary-label">Memory</span>
 
-    Continue
+              <div class="card__summary-score">
+                <span class="card__summary-score-current">92</span>
+                <span class="card__summary-score-total">/ 100</span>
+              </div>
+          </li>
+
+          <li class="card__summary-item card__summary-item--green">
+              <img class="card__summary-icon" src="assets/images/icon-verbal.svg" alt="">
+              <span class="card__summary-label">Verbal</span>
+
+              <div class="card__summary-score">
+                <span class="card__summary-score-current">61</span>
+                <span class="card__summary-score-total">/ 100</span>
+              </div>
+          </li>
+
+          <li class="card__summary-item card__summary-item--blue">
+              <img class="card__summary-icon" src="assets/images/icon-visual.svg" alt="">
+              <span class="card__summary-label">Visual</span>
+
+              <div class="card__summary-score">
+                <span class="card__summary-score-current">72</span>
+                <span class="card__summary-score-total">/ 100</span>
+              </div>
+          </li>
+        </ul>
+
+        <a class="btn" href="#">Continue</a>
+      </div>
+    </div>
   </body>
 </html>
